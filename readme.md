@@ -17,3 +17,8 @@ Este é um projeto de uma calculadora básica que permite realizar operações a
 - Adição, subtração, multiplicação e divisão.
 - Botão de limpar para resetar a calculadora.
 - Exibição do histórico da operação atual.
+
+## Contato
+
+- LinkedIn: https://www.linkedin.com/in/orafael-almeida/
+- GitHub: github.com/orafael-dev
