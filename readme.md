@@ -21,4 +21,4 @@ Este é um projeto de uma calculadora básica que permite realizar operações a
 ## Contato
 
 - LinkedIn: https://www.linkedin.com/in/orafael-almeida/
-- GitHub: github.com/orafael-dev
+- GitHub: http://github.com/orafael-dev
