@@ -11,6 +11,7 @@
     />
     <title>Calculadora Simples</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
   </head>
   <body>
     <main data-theme="dark">
@@ -36,10 +37,9 @@
         <button class="charKey" data-value="2">2</button>
         <button class="charKey" data-value="3">3</button>
         <button class="charKey" id="operator" data-value=" + ">+</button>
-        <button class="charKey" data-value="0">0</button>
+        <button class="charKey" id="zeroBtn" data-value="0">0</button>
         <button class="charKey" data-value=".">.</button>
-        <button class="charKey" data-value=" % ">mod</button>
-        <button id="equal">=</button>
+        <button id="operatorEqual">=</button>
       </div>
       <section class="flex align-center justify-between">
         <button id="copyToClipboard">Copiar</button>

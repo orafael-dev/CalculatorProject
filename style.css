@@ -10,7 +10,8 @@
     --font-color: #f4f4f4;
     --primary-color: #333;
     --secondary-color: #ff9f0a;
-    --error-color: #ff0043;
+    --error-color: #ef9a9a;
+    --success: #4dff91;
 }
 
 body {
@@ -58,7 +59,7 @@ button {
     border-radius: 2rem;
     font-weight: 700;
     padding: .5rem 1rem;
-    transition: .15s;
+    transition: .5s;
 }
 
 input {
@@ -79,6 +80,10 @@ input {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     margin: 1rem 0;
+}
+
+#zeroBtn {
+    grid-column: span 2;
 }
 
 #keys button {
@@ -106,8 +111,8 @@ input {
     cursor: pointer;
     display: block;
     height: 4.2rem;
-    width: 6rem;
-    margin-right: .5rem;
+    width: 8rem;
+    margin-right: .8rem;
 }
 .flex {
     display: flex;
@@ -126,11 +131,11 @@ input {
 }
 
 .success {
-    border-color: var(--primary-color) !important;
-    color: var(--primary-color) !important
+    border-color: var(--success) !important;
+    color: var(--success) !important
 }
 
-#operator {
+#operator, #operatorEqual {
     background-color: var(--secondary-color);
     color: var(--font-color);
 }
