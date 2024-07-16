@@ -1,8 +1,12 @@
-import "./styles/index.css";
-import calculate from "./calculate.js";
-import copyToClipboard from "./copyToClipboard.js";
-import { handleButtonPress, handleClear, handleTyping } from "./keyHandlers.js";
-import themeSwitcher from "./themeSwitcher.js";
+import "./src/styles/index.css";
+import calculate from "./src/calculate.js";
+import copyToClipboard from "./src/copyToClipboard.js";
+import {
+  handleButtonPress,
+  handleClear,
+  handleTyping,
+} from "./src/keyHandlers.js";
+import themeSwitcher from "./src/themeSwitcher.js";
 
 const input = document.getElementById("input");
 const resultInput = document.getElementById("result");
