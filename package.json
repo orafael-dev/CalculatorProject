@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-   "build-wp": "webpack",
+   "build": "webpack",
    "start": "node dist/index.js"
   },
   "keywords": [],
